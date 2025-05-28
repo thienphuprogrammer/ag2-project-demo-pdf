@@ -1,0 +1,23 @@
+[server]
+# Enable or disable development mode.
+# Default: false
+developmentMode = false
+
+# Enable or disable file watcher.
+# Default: true
+fileWatcherType = "none"
+
+[runner]
+# Configure whether to verify the server's certificate.
+# Default: true
+verifySsl = false
+
+# Add PyTorch to the list of modules to ignore for file watching
+[runner.magic]
+enabled = true
+ignoreModules = ["torch"]
+
+[client]
+# Enable or disable the run on save option.
+# Default: true
+runOnSave = true

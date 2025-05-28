@@ -1,0 +1,316 @@
+[
+  {
+    "text": "BAN MUC VU THIEU NHI - LIEN DOAN THIEU NHI THANH THE GIAO PHAN SAIGON KHOA DAO TAO HUYNH TRUONG CAP 1-NAM 2025- PHAN LY THUYET",
+    "metadata": {
+      "labels": [
+        "Document"
+      ],
+      "element_id": null,
+      "original_metadata": {
+        "labels": [
+          "Document"
+        ],
+        "element_id": null,
+        "original_metadata": {
+          "labels": [
+            "Document"
+          ],
+          "element_id": null,
+          "original_metadata": {
+            "labels": [
+              "Document"
+            ],
+            "element_id": "e1484f3e931b68a592f4d1166f0f3e11",
+            "original_metadata": {
+              "coordinates": {
+                "layout_height": 1700,
+                "layout_width": 2200,
+                "points": [
+                  [
+                    406.3,
+                    150.7
+                  ],
+                  [
+                    406.3,
+                    254.6
+                  ],
+                  [
+                    1767.3,
+                    254.6
+                  ],
+                  [
+                    1767.3,
+                    150.7
+                  ]
+                ],
+                "system": "PixelSpace"
+              },
+              "detection_class_prob": 0.44243,
+              "file_directory": "/tmp",
+              "filename": "tmped4ktddk.pdf",
+              "filetype": "application/pdf",
+              "languages": [
+                "eng"
+              ],
+              "last_modified": "2025-05-28T01:41:52",
+              "page_number": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "text": "DIA DIEM: HANH THONG TAY LOP 1C - KET QUA THI MON LINH DAO",
+    "metadata": {
+      "labels": [
+        "Document"
+      ],
+      "element_id": null,
+      "original_metadata": {
+        "labels": [
+          "Document"
+        ],
+        "element_id": null,
+        "original_metadata": {
+          "labels": [
+            "Document"
+          ],
+          "element_id": null,
+          "original_metadata": {
+            "labels": [
+              "Document"
+            ],
+            "element_id": "09f268f4eebfbd8de8b6ec610970d9df",
+            "original_metadata": {
+              "coordinates": {
+                "layout_height": 1700,
+                "layout_width": 2200,
+                "points": [
+                  [
+                    744.0,
+                    268.0
+                  ],
+                  [
+                    744.0,
+                    361.0
+                  ],
+                  [
+                    1425.0,
+                    361.0
+                  ],
+                  [
+                    1425.0,
+                    268.0
+                  ]
+                ],
+                "system": "PixelSpace"
+              },
+              "file_directory": "/tmp",
+              "filename": "tmped4ktddk.pdf",
+              "filetype": "application/pdf",
+              "languages": [
+                "eng"
+              ],
+              "last_modified": "2025-05-28T01:41:52",
+              "page_number": 1,
+              "parent_id": "e1484f3e931b68a592f4d1166f0f3e11"
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "text": "HO VA TEN DOI GIAO XU 9 9 Nguy\u00e9n Thi Thu Ha H\u00e9c Mon 10 100% Du DK thi 7 D Nguy\u00e9n Minh Hang Thanh Gia 10 100% Du DK thi KD 7 5 3 Neuy\u00e9n Vii Huy Hoang 9 Trung My Tay 10 100% Du DK thi 5 5 1 Maria Ly Ngoc Nhung 9 Tan Dong 8 80% Du DK thi D : 12 |Giuse Pham Hiru Tam 9 Hy Vong 10 100% Du DK thi 8 15 |Giuse Tran Nguy\u00e9n Ha Tri\u00e9u 9 Tu Dinh 8 80% Du DK thi Nguy\u00e9n Tuan Anh 10 D\u00e9ng Quang 10 u i i 0 10 100% Du DK thi Tran Hoang Gia A 1 Xom Thu\u00e9c Du DK thi i 0 4 |Maria D\u00e9ng Thi Huy\u00e9n 9 Bui M\u00e9n 10 | 100% Du DK thi 0 KD i 7 i 7",
+    "metadata": {
+      "labels": [
+        "Document"
+      ],
+      "element_id": null,
+      "original_metadata": {
+        "labels": [
+          "Document"
+        ],
+        "element_id": null,
+        "original_metadata": {
+          "labels": [
+            "Document"
+          ],
+          "element_id": null,
+          "original_metadata": {
+            "labels": [
+              "Document"
+            ],
+            "element_id": "75ed9d1a7411f5e4ae40f25669845fdd",
+            "original_metadata": {
+              "coordinates": {
+                "layout_height": 1700,
+                "layout_width": 2200,
+                "points": [
+                  [
+                    126.8,
+                    417.9
+                  ],
+                  [
+                    126.8,
+                    1489.8
+                  ],
+                  [
+                    2042.5,
+                    1489.8
+                  ],
+                  [
+                    2042.5,
+                    417.9
+                  ]
+                ],
+                "system": "PixelSpace"
+              },
+              "detection_class_prob": 0.92089,
+              "file_directory": "/tmp",
+              "filename": "tmped4ktddk.pdf",
+              "filetype": "application/pdf",
+              "image_path": "parsed/pdf_images/table-1-1.jpg",
+              "languages": [
+                "eng"
+              ],
+              "last_modified": "2025-05-28T01:41:52",
+              "page_number": 1,
+              "parent_id": "e1484f3e931b68a592f4d1166f0f3e11",
+              "text_as_html": "<table><thead><tr><th rowspan=\"2\">TEN THANH Teresa</th><th colspan=\"2\">HQ VA TEN</th><th rowspan=\"2\">DOI 9</th><th rowspan=\"2\">GIAO XU H\u00e9c Mon</th><th rowspan=\"2\">10</th><th rowspan=\"2\">100%</th><th rowspan=\"2\">Du DK thi</th></tr><tr><th>Neguy\u00e9n Thi Thu</th><th>Ha</th></tr></thead><tbody><tr><td>Teresa</td><td>Nguy\u00e9n Minh</td><td>Hang</td><td>9</td><td>Thanh Gia</td><td>10</td><td>100%</td><td>Du DK thi</td></tr><tr><td></td><td>Neuy\u00e9n Vii Huy</td><td>Hoang</td><td>9</td><td>Trung My Tay</td><td>10</td><td>100%</td><td>Du DK thi</td></tr><tr><td>Maria</td><td>D\u00e9ng Thi</td><td>Huy\u00e9n</td><td>9</td><td>Bui M\u00e9n</td><td>10 |</td><td>100%</td><td>Du DK thi</td></tr><tr><td>Daminh</td><td>Dang Ngoc Duy</td><td>Kh\u00e9i</td><td>9</td><td>Tan Hung</td><td>10</td><td>100%</td><td>Du DK thi</td></tr><tr><td></td><td>Neguy\u00e9n Qu\u00e9c</td><td>Nam</td><td>9</td><td>Trung My Tay y Ta</td><td>10</td><td>100%</td><td>Du DK thi</td></tr><tr><td></td><td>Pham Xuan Minh</td><td>Ngoc</td><td>9</td><td>Lac Quang Q</td><td>10</td><td>100%</td><td>- ; Du DK thi</td></tr><tr><td></td><td>Nguy\u00e9n Thanh</td><td>Ngoc</td><td>9</td><td>Ha N6i a NOi</td><td>10</td><td>100%</td><td>Du DK thi</td></tr><tr><td>Maria</td><td>Ly Ngoc</td><td>Nhung</td><td>9</td><td>Tan Dong</td><td>8</td><td>80%</td><td>Du DK thi</td></tr><tr><td></td><td></td><td>uw</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td>6</td><td>8</td><td></td><td></td></tr><tr><td>Giuse</td><td>Pham Hiru</td><td>Tam</td><td>9</td><td>9 Hy Vong</td><td>10</td><td>100%</td><td>Du DK thi</td></tr><tr><td></td><td>Vi Bui Nhat</td><td>Tan</td><td>9</td><td>a Di\u00e9 Ba Di\u00e9m</td><td>10</td><td>100%</td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td>9</td><td></td><td></td></tr><tr><td>Giuse</td><td>Tran Nguy\u00e9n Ha</td><td>Tri\u00e9u</td><td>9</td><td>Tu Dinh</td><td>8</td><td>80%</td><td>Du DK thi</td></tr><tr><td></td><td>Nguy\u00e9n Tuan</td><td>Anh</td><td>10</td><td>Dong Quang</td><td>10 |</td><td>100%</td><td>Du DK thi</td></tr></tbody></table>"
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "text": "19 Vi Huynh Dang 10 10 Hanh Thong Tay Ba Di\u00e9m 90% 80% Du DK thi 21 Daminh Savio y a Khoa Pham Dang Khoa Nguy\u00e9n Pham My Ngoc 10 10 10 Trung My Tay Nu virong Hoa Tan Hi\u00e9p 100% 100% 90% Du DK thi Du DK thi Du DK thi Dinh Cong Duy Nguy\u00e9n Cao Nguy\u00e9n Quynh Nhu Phu Tran Van hi 10 10 10 Trung My Tay Lac Quang Ba Di\u00e9m 80% Du DK thi Du DK thi 80% Du DK thi 20% D\u00e9ng Ngoc Minh Phuong Nguy\u00e9n Nhat Quynh Nguy\u00e9n Dire Tri 10 10 10 | Thanh Giuse Ha N6i Bac Ai 10 D . D KD = \u2014] 100% 80% 100% Khong du DK thi Du DK thi Du DK thi Pham Tu Thanh Tran Th\u00e9 Truong Trtic Nguyen Gia H Hi Vi Thi Thu 10 10 11 Lac Quang Tu Dinh Dong Quang X6m Thu\u00e9c Trung My Tay o|<. 90% 100% 80% 80% ele ele Sloljo/s Du DK thi Du DK thi Du DK thi Du DK thi lar) 5 5 = \u00a3 Zz 5 Khanh Nguy\u00e9n Ngoc Huong [Li Nguy\u00e9n Ngoc Minh i Huong i an Doan Tran Gia uy \u00b0 an 11 11 11 Ba Di\u00e9m Ha N6i Lac Quang 0% 20% 100% Khong du DR 100% Du DK thi S/Q/S/OlE/S/SIEISIE/Ol@Slsle/els x/2 Q]Q Plel(P ls rele leyselyelselsleieissea le p 1s ele SIAZAlB/2I/B/8 |/BIAIBJ2IE|/a/B.)/58 |a]e. 3.) nD SIO PPIS IE PSlP Ie TR ye pele lF le] el 2 |? o}]o \u00b0 @ > 5 5 S x a 6 Nguy\u00e9n Bao Ngoc Pham Trong Nguy\u00e9n Tran Thi\u00e9n Phi 11 11 11 Tan Dong Tan Hung Chi Hoa 80% 100% 90% Du DK thi Du DK thi Du DK thi Du DK thi Phanxico xavie ' i) dt. i Pham Dang Phtic Tran Ngoc Bao Tran Pham Tran Hoang Tu 11 11 11 Hanh Thong Tay B\u00e9n Cat Tan Hi\u00e9p 90% 100% 90% Du DK thi Du DK thi Du DK thi Du DK thi 5.5 7 8.5 5.5 6.5 6 6.5 75 6.5 6 7 5.5 75 5 6 6.5 S|; ala}oo| = vlelele|s/o]e S",
+    "metadata": {
+      "labels": [
+        "Document"
+      ],
+      "element_id": null,
+      "original_metadata": {
+        "labels": [
+          "Document"
+        ],
+        "element_id": null,
+        "original_metadata": {
+          "labels": [
+            "Document"
+          ],
+          "element_id": null,
+          "original_metadata": {
+            "labels": [
+              "Document"
+            ],
+            "element_id": "8b100c3bdcf93ec706633a3aeceb5df6",
+            "original_metadata": {
+              "coordinates": {
+                "layout_height": 1700,
+                "layout_width": 2200,
+                "points": [
+                  [
+                    128.9,
+                    151.1
+                  ],
+                  [
+                    128.9,
+                    1499.8
+                  ],
+                  [
+                    2049.0,
+                    1499.8
+                  ],
+                  [
+                    2049.0,
+                    151.1
+                  ]
+                ],
+                "system": "PixelSpace"
+              },
+              "detection_class_prob": 0.9188,
+              "file_directory": "/tmp",
+              "filename": "tmped4ktddk.pdf",
+              "filetype": "application/pdf",
+              "image_path": "parsed/pdf_images/table-2-2.jpg",
+              "languages": [
+                "eng"
+              ],
+              "last_modified": "2025-05-28T01:41:52",
+              "page_number": 2,
+              "parent_id": "e1484f3e931b68a592f4d1166f0f3e11",
+              "text_as_html": "<table><thead><tr><th>19</th><th>|Giuse</th><th>Neguy\u00e9n Minh</th><th>Doan</th><th>10 |</th><th>Hanh Thong Tay</th><th></th><th>90%</th><th>Du DK thi</th><th>5.5</th><th>D</th></tr></thead><tbody><tr><td>20</td><td>|Giuse</td><td>Vii Huynh Dang</td><td>Khoa</td><td>10</td><td>Ba Di\u00e9m</td><td></td><td>80%</td><td>Du DK thi</td><td>7</td><td>D</td></tr><tr><td>23</td><td>|Maria</td><td>Neguy\u00e9n Pham My</td><td>Ngoc</td><td>10</td><td>Tan Hi\u00e9p</td><td></td><td>90%</td><td>Du DK thi</td><td>6.5</td><td>D</td></tr><tr><td>24</td><td></td><td>Dinh Cong Duy</td><td>Nguy\u00e9n</td><td>10</td><td>Trung My Tay</td><td></td><td>80%</td><td></td><td>6</td><td>D</td></tr><tr><td>26</td><td>|Giuse</td><td>Tran Van</td><td>Phi</td><td>10</td><td>Ba Di\u00e9m</td><td></td><td>20%</td><td>[en ag</td><td></td><td>KD</td></tr><tr><td>27</td><td></td><td>D\u00e9ng Ngoc Minh</td><td>Phuong</td><td>10</td><td>Thanh Giuse</td><td>10</td><td>100%</td><td>Du DK thi</td><td>75</td><td>D</td></tr><tr><td>29</td><td>|Giuse</td><td>Neuy\u00e9n Dire</td><td>Tri</td><td>10</td><td>Bac Ai</td><td>10</td><td>100%</td><td>Du DK thi</td><td>6.5</td><td>D</td></tr><tr><td>30</td><td></td><td>Pham Tu Thanh</td><td>Truc</td><td>10</td><td>Lac Quang</td><td>9</td><td>90%</td><td></td><td>6</td><td>D</td></tr><tr><td>34</td><td>[Maria</td><td>Vai Thi Thu</td><td>Huong |</td><td>11 |</td><td>Trung My Tay</td><td></td><td>om</td><td>| ons cu DR</td><td></td><td>KD</td></tr><tr><td>35</td><td></td><td>Pham Mai Kim</td><td>Khanh |</td><td>11</td><td>Ba Di\u00e9m</td><td></td><td>20%</td><td>ong DK</td><td></td><td>KD</td></tr><tr><td>37</td><td>|Giuse</td><td>Nguy\u00e9n Ngoc</td><td>Minh</td><td>11</td><td>Lac Quang</td><td>10</td><td>100%</td><td>Du DK thi</td><td>4</td><td>KD</td></tr><tr><td>38</td><td></td><td>Nguy\u00e9n Bao</td><td>Ngoc</td><td>11</td><td>Tan Dong</td><td>8</td><td>80%</td><td></td><td>8</td><td>D</td></tr><tr><td>40</td><td>{Maurice</td><td>Tran Thi\u00e9n</td><td>Pha</td><td>11</td><td>Chi Hoa</td><td></td><td>90%</td><td>Du DK thi</td><td>6</td><td>D</td></tr><tr><td>41</td><td></td><td>Pham Dang</td><td>Phtic</td><td>11</td><td>Hanh Thong Tay</td><td></td><td>90%</td><td></td><td>6.5</td><td>D</td></tr></tbody></table>"
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "text": "45 Nguy\u00e9n Ngoc Tuong Vy 11 Thanh Giuse 10 11 Tu Dinh 10 100% Du DK thi 46 48 Anna Maria 1 Nguy\u00e9n Bao Han 12 inh 12 Nguy\u00e9n Ngoc Y\u00e9n Vy 1 Go Vap 2 Tir Dinh 8 9 Thach Da 20% 80% Du DK thi 100% Du DK thi ong du DK 49 51 Anna Nguy\u00e9n Ngoc Truc L Giuse Nguy\u00e9n Tan Loc 1 X6m Thudc 100% 2 10 Neuy\u00e9n Trin Bao Luan 12 B\u00e9n Hai 10 | 100% | DuDK thi 2 10 Nguy\u00e9n Thi Thao Ly 1 Tan Dong 100% 90% Du DK thi Du DK thi 52 Maria Teresa Pham Thao Mi Trung Bac Du DK thi 100% Du DK thi 90% Du DK thi D D D D D Dong Quang 5 8 8 8 7 . D D 12 10 10 100% Du DK thi 54 |Gioan Baotixita}Huynh Thai Nguy\u00e9n 12 55 |Giuse Tran Minh Nhat 12 Lac Quang 8 80% 56 Chau Bao Nhi 12 | Hanh Thong Tay | 9 | 90% | DuDK thi 57 Phan Y\u00e9n Nhi 12 | TrungmyTay | 10 | 100% | DaDK thi 7 58 Nguy\u00e9n Tran H\u00e9ng = |Nhung | 12 Tw Dinh 10 | 100% | DaDK thi \u00a7 ; ; 8 5 7 7 6 6 5 5 5 5 5 5 5 alate | F S/o 59 |Maria Neguy\u00e9n Ngoc Nhu Quynh 12 Lac Quang 80% Du DK thi D 62 |Maria Nguy\u00e9n Hoang Phuong |Uy\u00e9n 12 Ha N6i 10 100% Du DK thi 75 D",
+    "metadata": {
+      "labels": [
+        "Document"
+      ],
+      "element_id": null,
+      "original_metadata": {
+        "labels": [
+          "Document"
+        ],
+        "element_id": null,
+        "original_metadata": {
+          "labels": [
+            "Document"
+          ],
+          "element_id": null,
+          "original_metadata": {
+            "labels": [
+              "Document"
+            ],
+            "element_id": "a07289f30f78fa684c50f31c3c5abf4e",
+            "original_metadata": {
+              "coordinates": {
+                "layout_height": 1700,
+                "layout_width": 2200,
+                "points": [
+                  [
+                    133.3,
+                    146.5
+                  ],
+                  [
+                    133.3,
+                    1175.6
+                  ],
+                  [
+                    2035.8,
+                    1175.6
+                  ],
+                  [
+                    2035.8,
+                    146.5
+                  ]
+                ],
+                "system": "PixelSpace"
+              },
+              "detection_class_prob": 0.92594,
+              "file_directory": "/tmp",
+              "filename": "tmped4ktddk.pdf",
+              "filetype": "application/pdf",
+              "image_path": "parsed/pdf_images/table-3-3.jpg",
+              "languages": [
+                "eng"
+              ],
+              "last_modified": "2025-05-28T01:41:52",
+              "page_number": 3,
+              "parent_id": "e1484f3e931b68a592f4d1166f0f3e11",
+              "text_as_html": "<table><thead><tr><th>44</th><th></th><th></th><th></th><th>11</th><th>| Th\u00e9nhGiuse |</th><th>10 |</th><th>100%</th><th></th><th>8.5</th><th>D</th></tr></thead><tbody><tr><td>45</td><td>|Anna</td><td>Neguy\u00e9n Ngoc Tudng</td><td>Vy</td><td>11</td><td>Tu Dinh</td><td>10</td><td>100%</td><td rowspan=\"2\">Du DK thi</td><td>0</td><td>KD</td></tr><tr><td>46</td><td></td><td>Neguy\u00e9n Ngoc Y\u00e9n</td><td>Vy</td><td>11</td><td>Go Vap</td><td>2</td><td>20%</td><td></td><td>KD</td></tr><tr><td>48</td><td></td><td>Nguy\u00e9n Ngoc Truc</td><td>Linh</td><td>12</td><td>Thach Da</td><td>9</td><td>90%</td><td>Du DK thi</td><td></td><td>D</td></tr><tr><td>49</td><td></td><td>Neguy\u00e9n Tan</td><td>L\u00e9c</td><td>12</td><td>Xom Thu\u00e9c</td><td>10 |</td><td>100%</td><td></td><td></td><td>D</td></tr><tr><td>51</td><td></td><td>Nguy\u00e9n Thi Thao</td><td>Ly</td><td>12</td><td>Tan Dong</td><td>10</td><td>100%</td><td>Du DK thi</td><td>8</td><td>D</td></tr><tr><td>52</td><td></td><td></td><td></td><td>12</td><td>Trung Bac</td><td>10 |</td><td>100%</td><td></td><td>75</td><td>D</td></tr><tr><td>54</td><td>|Gioan Baotixita}Huynh</td><td>Thai</td><td>Nguy\u00e9n</td><td>12</td><td>D\u00e9ng Quang</td><td>10</td><td>100%</td><td>Du DK thi</td><td>6.5</td><td>D</td></tr><tr><td>59</td><td>|Maria</td><td>Neguy\u00e9n Ngoc Nhu</td><td>Quynh</td><td>12</td><td>Lac Quang</td><td>8</td><td>80%</td><td>Du DK thi</td><td>6</td><td>D</td></tr><tr><td>60</td><td>|Teresa</td><td>Neguy\u00e9n Tran Mai</td><td>Thanh</td><td>12</td><td>Go Vap</td><td>10</td><td>100%</td><td>Du DK thi</td><td>7</td><td>D</td></tr></tbody></table>"
+            }
+          }
+        }
+      }
+    }
+  }
+]
