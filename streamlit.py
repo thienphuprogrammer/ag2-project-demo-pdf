@@ -21,9 +21,8 @@ from src.config import load_config
 from src.neo4j_client import init_query_engine
 from src.agents.rag import create_rag_agent
 from src.agents.general import create_general_agent
-from src.agents.search import create_search_agent
 from src.agents.multimodal import create_multimodal_agent
-from autogen import UserProxyAgent, GroupChat, GroupChatManager
+from autogen import UserProxyAgent, GroupChat, GroupChatManager, AssistantAgent
 from autogen.agentchat.contrib.graph_rag.neo4j_graph_rag_capability import Neo4jGraphCapability
 
 nest_asyncio.apply()
@@ -34,7 +33,7 @@ logger = logging.getLogger(__name__)
 if "initialized" not in st.session_state:
     st.session_state.config_list = load_config()
     st.session_state.messages = []
-    st.session_state.temp_dir = tempfile.mkdtemp()
+    st.session_state.temp_dir = "./temp/"
     st.session_state.output_json = os.path.join(st.session_state.temp_dir, "parsed.json")
     st.session_state.image_dir = os.path.join(st.session_state.temp_dir, "images")
     st.session_state.query_engine = None
@@ -55,17 +54,25 @@ def setup_agents() -> UserProxyAgent:
             system_message="A human admin. Interact with the assistant agents to get information.",
             code_execution_config=False,
             human_input_mode="NEVER",
-            max_consecutive_auto_reply=4
+        )
+
+        rag_agent = create_rag_agent(
+            st.session_state.config_list,
+            name="rag_agent",
+            human_input_mode="NEVER"
         )
 
         # Add RAG capability if query engine is available
-        if st.session_state.query_engine:
-            try:
-                graph_rag_capability = Neo4jGraphCapability(st.session_state.query_engine)
-                graph_rag_capability.add_to_agent(user_proxy)
-                logger.info("Added RAG capability to user proxy")
-            except Exception as e:
-                logger.error(f"Failed to add RAG capability: {e}")
+        if st.session_state.query_engine is None:
+            ensure_directory_exists(st.session_state.image_dir)
+            st.session_state.query_engine = init_query_engine(st.session_state.config_list, st.session_state.output_json)
+        
+        try:
+            graph_rag_capability = Neo4jGraphCapability(st.session_state.query_engine)
+            graph_rag_capability.add_to_agent(rag_agent)
+            logger.info("Added RAG capability to rag agent")
+        except Exception as e:
+            logger.error(f"Failed to add RAG capability: {e}")
         
         # Create specialized agents with appropriate configurations
         general = create_general_agent(
@@ -73,19 +80,7 @@ def setup_agents() -> UserProxyAgent:
             name="general_agent",
             human_input_mode="NEVER"
         )
-        
-        search = create_search_agent(
-            st.session_state.config_list,
-            name="search_agent",
-            human_input_mode="NEVER"
-        )
-        
-        multimodal = create_multimodal_agent(
-            st.session_state.config_list,
-            name="multimodal_agent",
-            human_input_mode="NEVER"
-        )
-        
+                      
         # Create a final agent for summarization
         summarizer = create_general_agent(
             st.session_state.config_list,
@@ -97,13 +92,13 @@ def setup_agents() -> UserProxyAgent:
         )
 
         # Configure the group chat
-        agents = [user_proxy, general, search, summarizer]
+        agents = [general, rag_agent, summarizer]
         
         # Define the group chat with a clear termination message
         group_chat = GroupChat(
             agents=agents,
             messages=[],
-            max_round=4,  # Prevent infinite loops
+            max_round=6,  # Prevent infinite loops
             speaker_selection_method="round_robin"
         )
         
@@ -112,7 +107,7 @@ def setup_agents() -> UserProxyAgent:
             groupchat=group_chat,
             llm_config={
                 "config_list": st.session_state.config_list,
-                "timeout": 60,
+                "timeout": 120,
                 "cache_seed": 42,
                 "temperature": 0.7
             }
@@ -244,6 +239,7 @@ if prompt := st.chat_input("Type your message here..."):
                 st.session_state.messages.append({"role": "assistant", "content": full_response})
             
         except Exception as e:
+
             error_msg = f"Sorry, I encountered an error: {str(e)}"
             st.error(error_msg)
             logger.exception("Error in chat processing")
